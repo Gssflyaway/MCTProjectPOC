@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    consul:
+      host: 10.225.36.125
+      discovery:
+        service-name: ${spring.cloud.name}
+        instance-id: ${spring.cloud.consul.discovery.service-name}-${spring.cloud.client.ip-address}-${server.port}
+    name: status
