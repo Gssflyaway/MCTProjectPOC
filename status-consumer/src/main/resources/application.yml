@@ -1,2 +1,7 @@
 server:
   port: 8090
+
+feign:
+  hystrix:
+    enabled: true
+

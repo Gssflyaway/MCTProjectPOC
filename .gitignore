@@ -28,3 +28,6 @@ status/mvnw
 status/mvnw.cmd
 status-consumer/mvnw
 status-consumer/mvnw.cmd
+api-gateway/.mvn
+api-gateway/mvnw
+api-gateway/mvnw.cmd
