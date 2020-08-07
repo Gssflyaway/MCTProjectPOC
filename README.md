@@ -12,7 +12,7 @@
 
 ​	---status-consumer
 
-![POCstructure](/Users/kirkgong/Documents/interview/POCstructure.png)
+![POCstructure](./POCstructure.png)
 
 
 
@@ -96,7 +96,7 @@
 
    Verify: visit ip:8500 and see if UI like:
 
-   ![image-20200513152345396](/Users/kirkgong/Documents/interview/image-20200513152345396.png)
+   ![image-20200513152345396](./image-20200513152345396.png)
 
 3. (Optional)Set application name and server port in application.yml(or application.properties, depends on you):
 
@@ -124,7 +124,7 @@
 
    Start status server and check in consul page:
 
-   ![image-20200513153017491](/Users/kirkgong/Documents/interview/image-20200513153017491.png)
+   ![image-20200513153017491](./image-20200513153017491.png)
 
    Status service registered in consul successfully.
 
@@ -318,5 +318,5 @@
 
    Visit http://localhost:8090/hystrix and paster the link you just visited here. Check hystrix monitor dashboard.
 
-   ![image-20200513155445943](/Users/kirkgong/Documents/interview/image-20200513155445943.png)
+   ![image-20200513155445943](./image-20200513155445943.png)
 
